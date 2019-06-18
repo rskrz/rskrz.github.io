@@ -1,0 +1,13 @@
+td.hidden img {
+  display: none;
+}
+td.hidden:hover {
+  color: blue;
+}
+td.hidden:hover img{
+  display: block;
+  position: absolute;
+}
+tbody tr:hover {
+  background-color: gray;
+}
