@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html class="bg-black-80 code">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ryan Skrzypek</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css">
+    <link rel="stylesheet" href="style.sass">
+  </head>
+  <body class="white">
+    <div id="container">
+      <div class="bg-black-90" id="navbar">
+        <ul class="top-0 w-100 pa0 bg-black-90 flex ma0 flex justify-center list">
+          <li class="pa3"><a class="white tc" href="index.html">Home</a></li>
+          <li class="pa3"><a class="white tc" href="">Esports Bot</a></li>
+          <li class="pa3"><a class="white tc" href="">Features</a></li>
+          <li class="pa3"><a class="white tc" href="">Commands</a></li>
+        </ul>
+      </div>
+      <div class="bg-blue flex bg-blue justify-around" id="main">
+        <!--img(src="https://a3.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fncaa%2F500%2F2294.png" alt="Hawkeye").h4--><img class="h4" src="https://discordapp.com/assets/192cb9459cbc0f9e73e2591b700f1857.svg" alt="Discord">
+      </div>
+      <div id="content">
+        <h1 class="f-5 tc">Commands</h1>
+        <div class="bg-red w-70 center br4 pa2 mt3">
+          <div class="bg-dark-gray br4 pa2">
+            <h1 class="f2 tc">General
+              <div class="bg-black-20 mb4 mt4">
+                <table class="collapse moon-gray w-100 tl f4">
+                  <thead>
+                    <tr class="bb"> 
+                      <th class="pa2 w-25">Command</th>
+                      <th class="w-40">Usage</th>
+                      <th class="w-20">Example</th>
+                      <th class="w-15">Aliases</th>
+                    </tr>
+                  </thead>
+                  <tbody class="f5 silver">
+                    <tr class="bb pa3">
+                      <td class="pa3">Roll the Magic 8 Ball</td>
+                      <td>.ball</td>
+                      <td></td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Calendar</td>
+                      <td>.cal</td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Choose a random item</td>
+                      <td>.choose &lt;item1&gt; &lt;item2&gt; ... &lt;item10&gt;</td>
+                      <td> </td>
+                      <td>.vote .pick</td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Help</td>
+                      <td>.help</td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Create a poll</td>
+                      <td>.poll "title" item1 item2 ... item10</td>
+                      <td class="hidden">Show image<img src="./images/poll.png"></td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Roll a dice NdN</td>
+                      <td>.roll</td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Spam a message *</td>
+                      <td>.spam</td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">???</td>
+                      <td>.test</td>
+                      <td> </td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <h4 class="silver tr mr4">* denotes admin command</h4>
+            </h1>
+          </div>
+        </div>
+        <div class="bg-orange w-70 center br4 pa2 mt4">
+          <div class="bg-dark-gray br4 pa2">
+            <h1 class="f2 tc">Overwatch
+              <div class="bg-black-20 mb4">
+                <h2 class="f3 tl pa3">Overwatch League</h2>
+                <table class="collapse moon-gray w-100 tl f4">
+                  <thead>
+                    <tr class="bb"> 
+                      <th class="pa2 w-25">Command</th>
+                      <th class="w-40">Usage</th>
+                      <th class="w-20">Example</th>
+                      <th class="w-15">Aliases</th>
+                    </tr>
+                  </thead>
+                  <tbody class="f5 silver">
+                    <tr class="bb pa3">
+                      <td class="pa3">Compare Player Statistics</td>
+                      <td>.compare &lt;player1&gt; &lt;player2&gt;</td>
+                      <td class="hidden">Show image<img src="./images/compare.png"></td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Live Match</td>
+                      <td>.live</td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">OWL Reddit Posts</td>
+                      <td>.owl</td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Schedule</td>
+                      <td>.schedule</td>
+                      <td class="hidden">Show image<img src="./images/schedule.png"></td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Standings</td>
+                      <td>.standings</td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Player Statistics</td>
+                      <td>.stats &lt;player&gt;</td>
+                      <td class="hidden">Show image<img src="./images/stats.png"></td>
+                      <td>.player</td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Team Info</td>
+                      <td>.team &lt;team&gt;</td>
+                      <td class="hidden">Show image<img src="./images/team.png"></td>
+                      <td> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="bg-black-20">
+                <h2 class="f3 tl pa3">General</h2>
+                <table class="collapse moon-gray w-100 tl f4">
+                  <thead>
+                    <tr class="bb">
+                      <th class="pa2 w-25">Command</th>
+                      <th class="w-40">Usage</th>
+                      <th class="w-20">Example</th>
+                      <th class="w-15">Aliases</th>
+                    </tr>
+                  </thead>
+                  <tbody class="f5 silver">
+                    <tr class="bb pa3">
+                      <td class="pa3">Random Hero</td>
+                      <td>.hero #</td>
+                      <td> </td>
+                      <td>.comp .heroes</td>
+                    </tr>
+                    <tr class="bb pa3">
+                      <td class="pa3">Random Role</td>
+                      <td>.role</td>
+                      <td> </td>
+                      <td></td>
+                    </tr>
+                    <tr class="bb pa3">
+                      <td class="pa3">Overwatch Player SR</td>
+                      <td>.sr</td>
+                      <td class="hidden">Show image<img src="./images/sr.png"></td>
+                      <td>.skill .rank .rating</td>
+                    </tr>
+                    <tr class="bb pa3">
+                      <td class="pa3">Tespa Team & Player SR</td>
+                      <td>.tespa</td>
+                      <td> </td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <h4 class="silver tr mr4">* denotes admin command</h4>
+            </h1>
+          </div>
+        </div>
+        <div class="bg-gold w-70 center br4 pa2 mt4 mb4">
+          <div class="bg-dark-gray br4 pa2">
+            <h1 class="f2 tc">Economy
+              <div class="bg-black-20 mb4 mt3">
+                <table class="collapse moon-gray w-100 tl f4">
+                  <thead>
+                    <tr class="bb"> 
+                      <th class="pa2 w-25">Command</th>
+                      <th class="w-40">Usage</th>
+                      <th class="w-20">Example</th>
+                      <th class="w-15">Aliases</th>
+                    </tr>
+                  </thead>
+                  <tbody class="f5 silver">
+                    <tr class="bb pa3">
+                      <td class="pa3">User balance</td>
+                      <td>.bal</td>
+                      <td class="hidden">Show image<img src="./images/bal.png"></td>
+                      <td>.balance .bank</td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Open a lootbox</td>
+                      <td>.box</td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Spawn currency *</td>
+                      <td>.inflate &lt;amount&gt;</td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Open bank account</td>
+                      <td>.reg</td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                    <tr class="bb"> 
+                      <td class="pa3">Trade currency</td>
+                      <td>.trade &lt;user-id&gt; &lt;amount&gt;</td>
+                      <td> </td>
+                      <td> </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <h4 class="silver tr mr4">* denotes admin command</h4>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
