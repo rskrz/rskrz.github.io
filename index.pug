@@ -1,0 +1,201 @@
+doctype html
+html.bg-black-80.code
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title Ryan Skrzypek
+    link(rel="stylesheet" href="https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css")
+    link(rel="stylesheet" href="style.sass")
+  body.white
+    div(id="container")
+      div(id="navbar").bg-black-90
+        ul.top-0.w-100.pa0.bg-black-90.flex.ma0.flex.justify-center.list
+          li.pa3
+            a.white.tc(href="index.html") Home
+          li.pa3
+            a.white.tc(href="") Esports Bot
+          li.pa3
+            a.white.tc(href="") Features
+          li.pa3
+            a.white.tc(href="") Commands
+      div(id="main").bg-blue.flex.bg-blue.justify-around
+        //img(src="https://a3.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fncaa%2F500%2F2294.png" alt="Hawkeye").h4
+        img(src="https://discordapp.com/assets/192cb9459cbc0f9e73e2591b700f1857.svg" alt="Discord").h4
+      div(id="content")
+        h1.f-5.tc Commands
+        .bg-red.w-70.center.br4.pa2.mt3
+          .bg-dark-gray.br4.pa2
+            h1.f2.tc General
+              .bg-black-20.mb4.mt4
+                table.collapse.moon-gray.w-100.tl.f4
+                  thead
+                    tr.bb 
+                      th.pa2.w-25 Command
+                      th.w-40 Usage
+                      th.w-20 Example
+                      th.w-15 Aliases
+                  tbody.f5.silver
+                    tr.bb.pa3
+                      td.pa3 Roll the Magic 8 Ball
+                      td .ball
+                      td
+                      td 
+                    tr.bb 
+                      td.pa3 Calendar
+                      td .cal
+                      td 
+                      td 
+                    tr.bb 
+                      td.pa3 Choose a random item
+                      td .choose &lt;item1&gt; &lt;item2&gt; ... &lt;item10&gt;
+                      td 
+                      td .vote .pick
+                    tr.bb 
+                      td.pa3 Help
+                      td .help
+                      td 
+                      td 
+                    tr.bb 
+                      td.pa3 Create a poll
+                      td .poll "title" item1 item2 ... item10
+                      td.hidden Show image
+                        img(src="./images/poll.png")
+                      td 
+                    tr.bb 
+                      td.pa3 Roll a dice NdN
+                      td .roll
+                      td 
+                      td 
+                    tr.bb 
+                      td.pa3 Spam a message *
+                      td .spam
+                      td 
+                      td 
+                    tr.bb 
+                      td.pa3 ???
+                      td .test
+                      td 
+                      td
+              h4.silver.tr.mr4 * denotes admin command
+        .bg-orange.w-70.center.br4.pa2.mt4
+          .bg-dark-gray.br4.pa2
+            h1.f2.tc Overwatch
+              .bg-black-20.mb4
+                h2.f3.tl.pa3 Overwatch League
+                table.collapse.moon-gray.w-100.tl.f4
+                  thead
+                    tr.bb 
+                      th.pa2.w-25 Command
+                      th.w-40 Usage
+                      th.w-20 Example
+                      th.w-15 Aliases
+                  tbody.f5.silver
+                    tr.bb.pa3
+                      td.pa3 Compare Player Statistics
+                      td .compare &lt;player1&gt; &lt;player2&gt;
+                      td.hidden Show image
+                        img(src="./images/compare.png")
+                      td 
+                    tr.bb 
+                      td.pa3 Live Match
+                      td .live
+                      td 
+                      td 
+                    tr.bb 
+                      td.pa3 OWL Reddit Posts
+                      td .owl
+                      td 
+                      td 
+                    tr.bb 
+                      td.pa3 Schedule
+                      td .schedule
+                      td.hidden Show image
+                        img(src="./images/schedule.png")
+                      td 
+                    tr.bb 
+                      td.pa3 Standings
+                      td .standings
+                      td 
+                      td 
+                    tr.bb 
+                      td.pa3 Player Statistics
+                      td .stats &lt;player&gt;
+                      td.hidden Show image
+                        img(src="./images/stats.png")
+                      td .player
+                    tr.bb 
+                      td.pa3 Team Info
+                      td .team &lt;team&gt;
+                      td.hidden Show image
+                        img(src="./images/team.png") 
+                      td 
+              .bg-black-20
+                h2.f3.tl.pa3 General
+                table.collapse.moon-gray.w-100.tl.f4
+                  thead
+                    tr.bb
+                      th.pa2.w-25 Command
+                      th.w-40 Usage
+                      th.w-20 Example
+                      th.w-15 Aliases
+                  tbody.f5.silver
+                    tr.bb.pa3
+                      td.pa3 Random Hero
+                      td .hero #
+                      td 
+                      td .comp .heroes
+                    tr.bb.pa3
+                      td.pa3 Random Role
+                      td .role
+                      td 
+                      td
+                    tr.bb.pa3
+                      td.pa3 Overwatch Player SR
+                      td .sr
+                      td.hidden Show image
+                        img(src="./images/sr.png") 
+                      td .skill .rank .rating
+                    tr.bb.pa3
+                      td.pa3 Tespa Team & Player SR
+                      td .tespa
+                      td 
+                      td
+              h4.silver.tr.mr4 * denotes admin command
+        .bg-gold.w-70.center.br4.pa2.mt4.mb4
+          .bg-dark-gray.br4.pa2
+            h1.f2.tc Economy
+              .bg-black-20.mb4.mt3
+                table.collapse.moon-gray.w-100.tl.f4
+                  thead
+                    tr.bb 
+                      th.pa2.w-25 Command
+                      th.w-40 Usage
+                      th.w-20 Example
+                      th.w-15 Aliases
+                  tbody.f5.silver
+                    tr.bb.pa3
+                      td.pa3 User balance
+                      td .bal
+                      td.hidden Show image
+                        img(src="./images/bal.png") 
+                      td .balance .bank
+                    tr.bb 
+                      td.pa3 Open a lootbox
+                      td .box
+                      td 
+                      td 
+                    tr.bb 
+                      td.pa3 Spawn currency *
+                      td .inflate &lt;amount&gt;
+                      td 
+                      td 
+                    tr.bb 
+                      td.pa3 Open bank account
+                      td .reg
+                      td 
+                      td 
+                    tr.bb 
+                      td.pa3 Trade currency
+                      td .trade &lt;user-id&gt; &lt;amount&gt;
+                      td 
+                      td 
+              h4.silver.tr.mr4 * denotes admin command
