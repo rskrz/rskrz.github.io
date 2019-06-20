@@ -9,5 +9,33 @@ td.hidden:hover img{
   position: absolute;
 }
 tbody tr:hover {
-  background-color: gray;
+  background-color: #444444;
+}
+.bg_color1 {
+  background: #003049;
+}
+.bg_color2 {
+  background: #d62828;
+}
+.bg_color3 {
+  background: #f77f00;
+}
+.bg_color4 {
+  background: #fcbf49;
+}
+.bg_color5 {
+  background: rgb(234,226,183,0.5);
+}
+.main_bg {
+  background-image: url(./images/trianglify.svg);
+  background-size: 120%;
+}
+.nav {
+  outline: 10px dotted rgb(255,255,255,0.5);
+}
+.textblock:hover{
+  background: rgb(234,226,183,0.8)
+}
+.gra {
+  background: linear-gradient(to bottom, rgba(0,48,73,0) 0%,rgba(0,48,73,1) 100%);
 }

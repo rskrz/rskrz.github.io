@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="bg-black-80 code">
+<html class="bg-dark-gray avenir">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ryan Skrzypek</title>
@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body class="white">
-    <div id="container">
-      <div class="bg-black-90" id="navbar">
-        <ul class="top-0 w-100 pa0 bg-black-90 flex ma0 flex justify-center list">
-          <li class="pa3"><a class="white tc" href="index.html">Home</a></li>
-          <li class="pa3"><a class="white tc" href="">Esports Bot</a></li>
-          <li class="pa3"><a class="white tc" href="">Features</a></li>
+    <div id="top">
+      <div class="bg-black fixed w-100 h3 flex" id="navbar"><img class="h3" src="https://a3.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fncaa%2F500%2F2294.png" alt="Hawkeye">
+        <ul class="top-0 w-100 pa0 flex ma0 flex justify-end list f3">
+          <li class="pa3"><a class="white tc" href="home.html">Home</a></li>
           <li class="pa3"><a class="white tc" href="">Commands</a></li>
+          <li class="pa3"><a class="white tc" href="">Invite</a></li>
+          <li class="pa3"><a class="white tc" href="#content">GitHub    </a></li>
         </ul>
       </div>
       <div class="bg-blue flex bg-blue justify-around" id="main">
-        <!--img(src="https://a3.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fncaa%2F500%2F2294.png" alt="Hawkeye").h4--><img class="h4" src="https://discordapp.com/assets/192cb9459cbc0f9e73e2591b700f1857.svg" alt="Discord">
+        <!--img(src="https://a3.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fncaa%2F500%2F2294.png" alt="Hawkeye").h4--><img class="h4 mt5" src="https://discordapp.com/assets/192cb9459cbc0f9e73e2591b700f1857.svg" alt="Discord">
       </div>
       <div id="content">
         <h1 class="f-5 tc">Commands</h1>
@@ -54,6 +54,12 @@
                       <td>.vote .pick</td>
                     </tr>
                     <tr class="bb"> 
+                      <td class="pa3">Create an event</td>
+                      <td>.event "event-title" "description" "date" "duration"</td>
+                      <td class="hidden">Show image<img src="./images/event.png"></td>
+                      <td>.pick</td>
+                    </tr>
+                    <tr class="bb"> 
                       <td class="pa3">Help</td>
                       <td>.help</td>
                       <td> </td>
@@ -63,7 +69,7 @@
                       <td class="pa3">Create a poll</td>
                       <td>.poll "title" item1 item2 ... item10</td>
                       <td class="hidden">Show image<img src="./images/poll.png"></td>
-                      <td> </td>
+                      <td>.vote</td>
                     </tr>
                     <tr class="bb"> 
                       <td class="pa3">Roll a dice NdN</td>
@@ -127,7 +133,7 @@
                       <td class="pa3">Schedule</td>
                       <td>.schedule</td>
                       <td class="hidden">Show image<img src="./images/schedule.png"></td>
-                      <td> </td>
+                      <td>.sc</td>
                     </tr>
                     <tr class="bb"> 
                       <td class="pa3">Standings</td>
