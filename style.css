@@ -9,7 +9,7 @@ td.hidden:hover img{
   position: absolute;
 }
 tbody tr:hover {
-  background-color: #444444;
+  background-color: rgb(234,226,183,0.5);
 }
 .bg_color1 {
   background: #003049;
@@ -27,8 +27,12 @@ tbody tr:hover {
   background: rgb(234,226,183,0.5);
 }
 .main_bg {
-  background-image: url(./images/trianglify.svg);
-  background-size: 120%;
+  background-image: url(./images/home.svg);
+  background-size: 100%;
+}
+.cmd_bg {
+  background-image: url(./images/cmd.svg);
+  background-size: 100%;
 }
 .nav {
   background: rgb(234,226,183,0);

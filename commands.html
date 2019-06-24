@@ -1,209 +1,202 @@
 <!DOCTYPE html>
-<html class="bg-dark-gray avenir">
+<html class="cmd_bg">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     <title>Ryan Skrzypek</title>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
   </head>
-  <body class="white">
-    <div id="top">
-      <div class="bg-black fixed w-100 h3 flex" id="navbar"><img class="h3" src="https://a3.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fncaa%2F500%2F2294.png" alt="Hawkeye">
+  <body class="font1" id="body">
+    <div class="h3" id="top">
+      <div class="nav fixed w-100 h3 flex" id="nb"><img class="mr7" src="https://discordapp.com/assets/192cb9459cbc0f9e73e2591b700f1857.svg" alt="Discord">
         <ul class="top-0 w-100 pa0 flex ma0 flex justify-end list f3">
           <li class="pa3"><a class="white tc" href="index.html">Home</a></li>
           <li class="pa3"><a class="white tc" href="#top">Commands</a></li>
-          <li class="pa3"><a class="white tc" href="">Invite</a></li>
+          <li class="pa3"><a class="white tc" href="https://discordapp.com/api/oauth2/authorize?client_id=535656985002115074&amp;permissions=3525696&amp;scope=bot">Invite</a></li>
           <li class="pa3"><a class="white tc" href="#content">GitHub    </a></li>
         </ul>
       </div>
-      <div class="bg-blue flex bg-blue justify-around" id="main">
-        <!--img(src="https://a3.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fncaa%2F500%2F2294.png" alt="Hawkeye").h4--><img class="h4 mt5" src="https://discordapp.com/assets/192cb9459cbc0f9e73e2591b700f1857.svg" alt="Discord">
-      </div>
+    </div>
+    <div id="main">
       <div id="content">
-        <h1 class="f-5 tc">Commands</h1>
-        <div class="bg-red w-70 center br4 pa2 mt3">
-          <div class="bg-dark-gray br4 pa2">
-            <h1 class="f2 tc">General
-              <div class="bg-black-20 mb4 mt4">
-                <table class="collapse moon-gray w-100 tl f4">
-                  <thead>
-                    <tr class="bb"> 
-                      <th class="pa2 w-25">Command</th>
-                      <th class="w-40">Usage</th>
-                      <th class="w-20">Example</th>
-                      <th class="w-15">Aliases</th>
-                    </tr>
-                  </thead>
-                  <tbody class="f5 silver">
-                    <tr class="bb pa3">
-                      <td class="pa3">Roll the Magic 8 Ball</td>
-                      <td>.ball</td>
-                      <td></td>
-                      <td> </td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">Calendar</td>
-                      <td>.cal</td>
-                      <td> </td>
-                      <td> </td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">Choose a random item</td>
-                      <td>.choose &lt;item1&gt; &lt;item2&gt; ... &lt;item10&gt;</td>
-                      <td> </td>
-                      <td>.pick</td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">Create an event</td>
-                      <td>.event "event-title" "description" "date" "duration"</td>
-                      <td class="hidden">Show image<img src="./images/event.png"></td>
-                      <td> </td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">Help</td>
-                      <td>.help</td>
-                      <td> </td>
-                      <td> </td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">Create a poll</td>
-                      <td>.poll "title" item1 item2 ... item10</td>
-                      <td class="hidden">Show image<img src="./images/poll.png"></td>
-                      <td>.vote</td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">Roll a dice NdN</td>
-                      <td>.roll</td>
-                      <td> </td>
-                      <td> </td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">Spam a message *</td>
-                      <td>.spam</td>
-                      <td> </td>
-                      <td> </td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">???</td>
-                      <td>.test</td>
-                      <td> </td>
-                      <td></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <h4 class="silver tr mr4">* denotes admin command</h4>
-            </h1>
+        <div class="w-70 center mt3 near-white">
+          <h1 class="f-5 tc">General</h1>
+          <div class="bg-black-40 mv4 pa3 br4">
+            <table class="collapse w-100 tl f4">
+              <thead>
+                <tr class="bb"> 
+                  <th class="pa2 w-25">Command</th>
+                  <th class="w-40">Usage</th>
+                  <th class="w-20">Example</th>
+                  <th class="w-15">Aliases</th>
+                </tr>
+              </thead>
+              <tbody class="f5">
+                <tr class="bb pa3">
+                  <td class="pa3">Roll the Magic 8 Ball</td>
+                  <td>.ball</td>
+                  <td></td>
+                  <td> </td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">Calendar</td>
+                  <td>.cal</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">Choose a random item</td>
+                  <td>.choose &lt;item1&gt; &lt;item2&gt; ... &lt;item10&gt;</td>
+                  <td> </td>
+                  <td>.pick</td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">Create an event</td>
+                  <td>.event "event-title" "description" "date" "duration"</td>
+                  <td class="hidden">Show image<img src="./images/event.png"></td>
+                  <td> </td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">Help</td>
+                  <td>.help</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">Create a poll</td>
+                  <td>.poll "title" item1 item2 ... item10</td>
+                  <td class="hidden">Show image<img src="./images/poll.png"></td>
+                  <td>.vote</td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">Roll a dice NdN</td>
+                  <td>.roll</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">Spam a message *</td>
+                  <td>.spam</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">???</td>
+                  <td>.test</td>
+                  <td> </td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+          <h4 class="dark-gray tr mr4">* denotes admin command</h4>
         </div>
-        <div class="bg-orange w-70 center br4 pa2 mt4">
-          <div class="bg-dark-gray br4 pa2">
-            <h1 class="f2 tc">Overwatch
-              <div class="bg-black-20 mb4">
-                <h2 class="f3 tl pa3">Overwatch League</h2>
-                <table class="collapse moon-gray w-100 tl f4">
-                  <thead>
-                    <tr class="bb"> 
-                      <th class="pa2 w-25">Command</th>
-                      <th class="w-40">Usage</th>
-                      <th class="w-20">Example</th>
-                      <th class="w-15">Aliases</th>
-                    </tr>
-                  </thead>
-                  <tbody class="f5 silver">
-                    <tr class="bb pa3">
-                      <td class="pa3">Compare Player Statistics</td>
-                      <td>.compare &lt;player1&gt; &lt;player2&gt;</td>
-                      <td class="hidden">Show image<img src="./images/compare.png"></td>
-                      <td> </td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">Live Match</td>
-                      <td>.live</td>
-                      <td> </td>
-                      <td> </td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">OWL Reddit Posts</td>
-                      <td>.owl</td>
-                      <td> </td>
-                      <td> </td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">Schedule</td>
-                      <td>.schedule</td>
-                      <td class="hidden">Show image<img src="./images/schedule.png"></td>
-                      <td>.sc</td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">Standings</td>
-                      <td>.standings</td>
-                      <td> </td>
-                      <td> </td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">Player Statistics</td>
-                      <td>.stats &lt;player&gt;</td>
-                      <td class="hidden">Show image<img src="./images/stats.png"></td>
-                      <td>.player</td>
-                    </tr>
-                    <tr class="bb"> 
-                      <td class="pa3">Team Info</td>
-                      <td>.team &lt;team&gt;</td>
-                      <td class="hidden">Show image<img src="./images/team.png"></td>
-                      <td> </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="bg-black-20">
-                <h2 class="f3 tl pa3">General</h2>
-                <table class="collapse moon-gray w-100 tl f4">
-                  <thead>
-                    <tr class="bb">
-                      <th class="pa2 w-25">Command</th>
-                      <th class="w-40">Usage</th>
-                      <th class="w-20">Example</th>
-                      <th class="w-15">Aliases</th>
-                    </tr>
-                  </thead>
-                  <tbody class="f5 silver">
-                    <tr class="bb pa3">
-                      <td class="pa3">Random Hero</td>
-                      <td>.hero #</td>
-                      <td> </td>
-                      <td>.comp .heroes</td>
-                    </tr>
-                    <tr class="bb pa3">
-                      <td class="pa3">Random Role</td>
-                      <td>.role</td>
-                      <td> </td>
-                      <td></td>
-                    </tr>
-                    <tr class="bb pa3">
-                      <td class="pa3">Overwatch Player SR</td>
-                      <td>.sr</td>
-                      <td class="hidden">Show image<img src="./images/sr.png"></td>
-                      <td>.skill .rank .rating</td>
-                    </tr>
-                    <tr class="bb pa3">
-                      <td class="pa3">Tespa Team & Player SR</td>
-                      <td>.tespa</td>
-                      <td> </td>
-                      <td></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <h4 class="silver tr mr4">* denotes admin command</h4>
-            </h1>
+        <div class="w-70 center mt4 near-white">
+          <h1 class="f-5 tc">Overwatch</h1>
+          <div class="mb4 bg-black-40 br4 pa3">
+            <h2 class="f2 tl pa3 mv0">Overwatch League</h2>
+            <table class="collapse w-100 tl f4">
+              <thead>
+                <tr class="bb"> 
+                  <th class="pa2 w-25">Command</th>
+                  <th class="w-40">Usage</th>
+                  <th class="w-20">Example</th>
+                  <th class="w-15">Aliases</th>
+                </tr>
+              </thead>
+              <tbody class="f5">
+                <tr class="bb pa3">
+                  <td class="pa3">Compare Player Statistics</td>
+                  <td>.compare &lt;player1&gt; &lt;player2&gt;</td>
+                  <td class="hidden">Show image<img src="./images/compare.png"></td>
+                  <td> </td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">Live Match</td>
+                  <td>.live</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">OWL Reddit Posts</td>
+                  <td>.owl</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">Schedule</td>
+                  <td>.schedule</td>
+                  <td class="hidden">Show image<img src="./images/schedule.png"></td>
+                  <td>.sc</td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">Standings</td>
+                  <td>.standings</td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">Player Statistics</td>
+                  <td>.stats &lt;player&gt;</td>
+                  <td class="hidden">Show image<img src="./images/stats.png"></td>
+                  <td>.player</td>
+                </tr>
+                <tr class="bb"> 
+                  <td class="pa3">Team Info</td>
+                  <td>.team &lt;team&gt;</td>
+                  <td class="hidden">Show image<img src="./images/team.png"></td>
+                  <td> </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+          <div class="mb4 bg-black-40 pa3 br4">
+            <h2 class="f2 tl pa3 mv0">General</h2>
+            <table class="collapse w-100 tl f4">
+              <thead>
+                <tr class="bb">
+                  <th class="pa2 w-25">Command</th>
+                  <th class="w-40">Usage</th>
+                  <th class="w-20">Example</th>
+                  <th class="w-15">Aliases</th>
+                </tr>
+              </thead>
+              <tbody class="f5">
+                <tr class="bb pa3">
+                  <td class="pa3">Random Hero</td>
+                  <td>.hero #</td>
+                  <td> </td>
+                  <td>.comp .heroes</td>
+                </tr>
+                <tr class="bb pa3">
+                  <td class="pa3">Random Role</td>
+                  <td>.role</td>
+                  <td> </td>
+                  <td></td>
+                </tr>
+                <tr class="bb pa3">
+                  <td class="pa3">Overwatch Player SR</td>
+                  <td>.sr</td>
+                  <td class="hidden">Show image<img src="./images/sr.png"></td>
+                  <td>.skill .rank .rating</td>
+                </tr>
+                <tr class="bb pa3">
+                  <td class="pa3">Tespa Team & Player SR</td>
+                  <td>.tespa</td>
+                  <td> </td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <h4 class="dark-gray tr mr4">* denotes admin command</h4>
         </div>
-        <div class="bg-gold w-70 center br4 pa2 mt4 mb4">
-          <div class="bg-dark-gray br4 pa2">
-            <h1 class="f2 tc">Economy
-              <div class="bg-black-20 mb4 mt3">
-                <table class="collapse moon-gray w-100 tl f4">
+        <div class="w-70 center mv4 near-white">
+          <div class="br4 pa2">
+            <h1 class="f-5 tc">Economy
+              <div class="mb4 mt3 bg-black-40 pa3 br4">
+                <table class="collapse w-100 tl f4">
                   <thead>
                     <tr class="bb"> 
                       <th class="pa2 w-25">Command</th>
@@ -212,7 +205,7 @@
                       <th class="w-15">Aliases</th>
                     </tr>
                   </thead>
-                  <tbody class="f5 silver">
+                  <tbody class="f5">
                     <tr class="bb pa3">
                       <td class="pa3">User balance</td>
                       <td>.bal</td>
@@ -246,11 +239,12 @@
                   </tbody>
                 </table>
               </div>
-              <h4 class="silver tr mr4">* denotes admin command</h4>
+              <h4 class="dark-gray tr mr4">* denotes admin command</h4>
             </h1>
           </div>
         </div>
       </div>
     </div>
+    <script src="scripts.js"></script>
   </body>
 </html>
