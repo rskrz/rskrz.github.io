@@ -1,7 +1,7 @@
 td.hidden img {
   display: none;
 }
-td.hidden:hover {
+td.hidden:hover{
   color: #003049;
 }
 td.hidden:hover img{
